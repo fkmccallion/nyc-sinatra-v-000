@@ -3,6 +3,6 @@
 <h2>Landmarks:</h2>
 <% @figure.landmarks.each do |l| %>
   <p>
-    <%= l.name %>
+    <a href="/landmarks/<%= l.id %>"<%= l.name %></a>
   </p>
 <% end %>
