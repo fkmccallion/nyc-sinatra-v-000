@@ -2,6 +2,6 @@
 
 <% @figures.each do |f| %>
   <p>
-    <%= f.name %>
+    <a href="/figures/<%= f.id %>"><%= f.name %></a>
   </p>
 <% end %>
