@@ -6,3 +6,10 @@
     <a href="/landmarks/<%= l.id %>"><%= l.name %></a>
   </p>
 <% end %>
+
+<h2>Titles:</h2>
+<% @figure.titles.each do |t| %>
+  <p>
+    <%= t.name %>
+  </p>
+<% end %>
